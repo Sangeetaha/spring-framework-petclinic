@@ -645,6 +645,19 @@
                     </plugin>
                 </plugins>
             </build>
+            <distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <name>Nexus Release Repository</name>
+        <urlhttp://13.57.38.58:8081/repository/Pet-clinic/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <name>Nexus Snapshot Repository</name>
+        <url>http://13.57.38.58:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+
         </profile>
    </profiles>
 
